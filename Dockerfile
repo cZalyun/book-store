@@ -1,4 +1,4 @@
-ARG TAG=20.1.0-alpine3.16
+ARG TAG=20.3.1-alpine3.18
 ARG CI=true
 ARG PORT=3000
 
