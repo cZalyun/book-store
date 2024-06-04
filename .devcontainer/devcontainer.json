@@ -6,9 +6,12 @@
     "../docker-compose.yaml",
     "docker-compose.extend.yaml"
   ],
-
   "service": "book-store",
-  "workspaceFolder": "/home/node/app",
+  "workspaceFolder": "/workspace",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
