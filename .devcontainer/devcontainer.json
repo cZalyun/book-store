@@ -2,7 +2,10 @@
   "name": "Book store",
 
   // The order of the files is important since later files override previous ones
-  "dockerComposeFile": ["../docker-compose.yaml", "docker-compose.extend.yaml"],
+  "dockerComposeFile": [
+    "../docker-compose.yaml",
+    "docker-compose.extend.yaml"
+  ],
 
   "service": "book-store",
   "workspaceFolder": "/home/node/app",
