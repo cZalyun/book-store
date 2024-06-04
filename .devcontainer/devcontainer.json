@@ -2,15 +2,11 @@
   "name": "Book store",
 
   // The order of the files is important since later files override previous ones
-  "dockerComposeFile": [
-    "../docker-compose.yaml",
-    "docker-compose.extend.yaml"
-  ],
+  "dockerComposeFile": ["../docker-compose.yaml", "docker-compose.extend.yaml"],
   "service": "book-store",
   "workspaceFolder": "/workspace",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   "customizations": {
     "vscode": {
@@ -19,8 +15,9 @@
         "Orta.vscode-jest",
         "esbenp.prettier-vscode",
         "cweijan.vscode-mysql-client2",
-        "mutantdino.resourcemonitor"
-      ]
-    }
-  }
+        "mutantdino.resourcemonitor",
+        "cweijan.dbclient-jdbc",
+      ],
+    },
+  },
 }
